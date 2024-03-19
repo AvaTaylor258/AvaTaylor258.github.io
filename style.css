@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box; /* border-box, my beloved */
+}
+
+body {
+    margin: 0px
+}
+
+#content {
+    padding: 0px 500px 10px 500px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+footer {
+    background-color: yellow;
+    padding: 5px 500px 10px 500px;
+}
+
+@media screen and (max-width: 1014px) {
+    #content, footer {
+        padding: 0px 20px
+    }
+}
