@@ -19,9 +19,18 @@ a {
     text-decoration: none;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
 footer {
     background-color: yellow;
     padding: 5px 500px 10px 500px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1014px) {
