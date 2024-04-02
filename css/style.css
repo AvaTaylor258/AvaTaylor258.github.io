@@ -7,10 +7,16 @@ body {
 }
 
 header {
-    background-color: yellow;
-    padding: 5px 500px 10px 500px;
+    background-color: grey;
+    padding: 15px 500px 10px 500px;
     font-size: 40px;
-    font-weight: bold;
+	position: sticky;
+	top: 0px;
+	left: 0px;
+}
+
+header a:hover {
+	font-weight: bold;
 }
 
 main {
@@ -33,15 +39,14 @@ table, th, td {
 }
 
 footer {
-    background-color: yellow;
-    padding: 5px 500px 10px 500px;
-    position: relative;
-    bottom: 0px;
+    background-color: grey;
+    padding: 15px 500px 20px 500px;
     width: 100%;
 }
 
 @media screen and (max-width: 1014px) {
-    main, footer {
-        padding: 0px 20px
+    header, main, footer {
+        padding-right: 10px;
+		padding-left: 10px;
     }
 }
