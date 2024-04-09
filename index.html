@@ -11,15 +11,27 @@
     </head>
 
     <body>
-        <header>Ava Taylor</header>
+        <header>
+			<img src="../imgs/hamburger.png" id="hamburger" alt="hamburger" onclick="openNav()">
+			Ava Taylor
+		</header>
 
         <main>
-            <h2><a href="html/day1.html">Day 1 Assignment</a></h2>
-            <h2><a href="html/day2.html">Day 2 Assignment</a></h2>
-			<h2><a href="html/programs.html">Programs</a></h2>
+            Welcome to my website! I hope you have a good time here!
         </main>
 
         <footer>the footer lol 0-0</footer>
+		
+		<div id="sidenav">
+			<a id="closebtn" onclick="closeNav()">&times;</a>
+			<a href="html/day1.html">Day 1 Assignment</a>
+			<br>
+			<a href="html/day2.html">Day 2 Assignment</a>
+			<br>
+			<a href="html/programs.html">Programs</a>
+		</div>
+
+		<script src="script.js"></script>
     </body>
 
 </html>

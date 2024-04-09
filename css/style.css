@@ -15,12 +15,48 @@ header {
 	left: 0px;
 }
 
+#hamburger {
+	float: left;
+	width: 35px;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+#hamburger:hover {
+	cursor: pointer;
+}
+
 header a:hover {
 	font-weight: bold;
 }
 
+#sidenav {
+	height: 100%;
+	width: 0px;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+	overflow-x: hidden;
+	/* transition: 0.5s; */
+	padding-top: 60px;
+}
+
+#closebtn {
+	position: absolute;
+	top: 0px;
+	right: 12px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#closebtn:hover {
+	cursor: pointer;
+}
+
 main {
-    padding: 0px 500px 10px 500px;
+    padding: 10px 500px 10px 500px;
 }
 
 img {
@@ -40,7 +76,7 @@ table, th, td {
 
 footer {
     background-color: grey;
-    padding: 15px 500px 20px 500px;
+    padding: 10px 500px 10px 500px;
     width: 100%;
 }
 
